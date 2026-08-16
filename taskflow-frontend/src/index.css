@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thin, unobtrusive horizontal scrollbar for the board's column row. */
+.board-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.board-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.board-scroll::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
