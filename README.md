@@ -1,3 +1,18 @@
+# TaskFlow Frontend
+
+```bash
+cd taskflow-frontend
+npm install
+
+```
+
+### 2. Configure environment variables
+
+Create a `.env` file.
+
+* VITE_API_URL=http://localhost:8080/api
+
+
 # TaskFlow Backend
 
 Backend API for a simple task management board built with **Node.js, Express, and MySQL**.
@@ -15,12 +30,14 @@ Backend API for a simple task management board built with **Node.js, Express, an
 ### 1. Install dependencies
 
 ```bash
+cd taskflow-backend
+
 npm install
 ```
 
 ### 2. Configure environment variables
 
-Create a `.env` file using `.env.example` as a reference.
+Create a `.env` 
 
 ```env
 PORT=8080
@@ -152,3 +169,6 @@ taskflow-backend/
 * The backend is designed to work with a separate frontend.
 * CORS is enabled for local development.
 * Authentication and multi-user features are not included.
+
+
+
