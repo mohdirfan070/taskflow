@@ -46,7 +46,7 @@ export default function App() {
           TaskFlow
         </Heading>
         <Text fontSize="sm" color="gray.500">
-          a lightweight task board
+          task dashboard
         </Text>
       </HStack>
 
