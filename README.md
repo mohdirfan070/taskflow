@@ -47,6 +47,8 @@ DB_PORT=3306
 DB_NAME=taskflow
 DB_USER=root
 DB_PASSWORD=
+
+FRONTEND_URL=http://localhost:5173
 ```
 
 Update the database credentials according to your local MySQL setup.
